@@ -1,17 +1,17 @@
-#include "Sauce.h"
+// wippe.cpp : 이 파일에는 'main' 함수가 포함됩니다. 거기서 프로그램 실행이 시작되고 종료됩니다.
+//
+
+
 #include <iostream>
+#include "Pizza.h"
 
 using namespace std;
 
-void test::input() {
-	int a;
-	cin >> a;
 
-	add += a;
-	number++;
+
+test yeet;
+
+int main() {
+	
+	
 }
-
-int test::average() {
-	return add / number;
-}
-
