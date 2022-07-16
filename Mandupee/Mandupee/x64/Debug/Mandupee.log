@@ -1,0 +1,5 @@
+﻿  Mandupee.cpp
+C:\Users\user\Desktop\AManWithoutLove\Mandupee\Mandupee\Mandupee.cpp(15,13): error C2082: 'a' 정식 매개 변수 재정의
+C:\Users\user\Desktop\AManWithoutLove\Mandupee\Mandupee\Mandupee.cpp(16,13): error C2082: 'b' 정식 매개 변수 재정의
+C:\Users\user\Desktop\AManWithoutLove\Mandupee\Mandupee\Mandupee.cpp(18,9): error C2086: 'int c': 재정의
+C:\Users\user\Desktop\AManWithoutLove\Mandupee\Mandupee\Mandupee.cpp(17): message : 'c' 선언을 참조하십시오.
