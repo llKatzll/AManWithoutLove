@@ -12,9 +12,6 @@ string engengeng() {
 }
 
 int engengengeng(int a, int b) {
-    int a = 10;
-    int b = 4;
-    int c;
     int c = a - b;
 
     return c;
@@ -31,7 +28,7 @@ int main()
     cin >> a;
     cout << a << endl;
 
-    engengengeng(3, 18);
+    cout << engengengeng(3, 18) << endl;
 }
 
 
