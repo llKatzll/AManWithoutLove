@@ -1,6 +1,5 @@
 #pragma once
-#include <cstdint>
-#include <Windows.h>
+#include <iostream>
 
 using namespace std;
 
