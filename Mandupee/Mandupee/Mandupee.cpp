@@ -1,34 +1,19 @@
 ﻿
-#include <iostream>
-#include <cstdint>
-#include <Windows.h>
+#include "mandoo.h"
 
 using namespace std;
 
-
-string engengeng() {
-    string eng = "engeng";
-    return eng;
-}
-
-int engengengeng(int a, int b) {
-    int c = a - b;
-
-    return c;
-}
+int b = 0;
 
 
-
+int a = 0;
 int main()
 {
-    int a;
+	b = 1;
+	b++;
 
-    cout << "hello" << endl;
-    
-    cin >> a;
-    cout << a << endl;
 
-    cout << engengengeng(3, 18) << endl;
+	a = 3;
 }
 
 

@@ -1,8 +1,10 @@
 #pragma once
-#include <iostream>
 
-using namespace std;
-
-string engengeng();
-
-int engengengeng();
+class arihe {
+	public:
+		int a;
+		int b();
+	private:
+		int c;
+		int d();
+};

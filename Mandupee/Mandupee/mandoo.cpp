@@ -1,12 +1,10 @@
 #pragma once
 #include "mandoo.h"
 
-using namespace std;
-
-string engengeng() {
-	rand();
+int arihe::b() {
+	return 0;
 };
 
-int engengengeng() {
-
-};
+int arihe::d() {
+	return 1;
+}
