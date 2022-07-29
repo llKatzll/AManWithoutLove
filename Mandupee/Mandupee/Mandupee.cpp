@@ -7,12 +7,23 @@ using namespace std;
 
 // return a
 int q1() {
+	int* a;
+	int a = 2;
+	*a = 1;
 
+	return *a;
 }
 
 // return a + b + c;
 int q2() {
+	int* a;
+	int* b;
+	int* c;
 
+	*a = 1;
+	*b = 2;
+
+	return *a + *b + *c;
 }
 
 // a = b + c;
@@ -20,7 +31,19 @@ int q2() {
 // c = a + b;
 // return a + b + c;
 int q3() {
+	int* a;
+	int* b;
+	int* c;
 
+	*a = 2;
+	*b = 4;
+	*c = 3;
+
+	*a = *b + *c;
+	*b = *a + *c;
+	*c = *a + *b;
+
+	return *a + *b + *c;
 }
 
 // if (a == 2) {
@@ -30,7 +53,7 @@ int q3() {
 //   return c;
 // }
 int q4() {
-
+	
 }
 
 // pointa는 b를 참조한다
