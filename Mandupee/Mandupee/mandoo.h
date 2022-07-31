@@ -1,9 +1,10 @@
 #pragma once
 
-class mandoo {
+class arihe {
 	public:
 		int a;
-		void b();
+		int b();
+		
 	private:
 		int d;
 		void e();
