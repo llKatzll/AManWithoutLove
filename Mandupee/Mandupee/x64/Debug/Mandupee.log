@@ -1,2 +1,2 @@
 ﻿  Mandupee.cpp
-  Mandupee.vcxproj -> C:\Users\juwon\Desktop\AManWithoutLove\Mandupee\x64\Debug\Mandupee.exe
+LINK : fatal error LNK1168: C:\Users\user\Desktop\ALL\AManWithoutLove\Mandupee\x64\Debug\Mandupee.exe을(를) 쓰기용으로 열 수 없습니다.
