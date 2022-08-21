@@ -6,6 +6,7 @@ using namespace std;
 
 string a;
 string b;
+string d;
 int c;
 
 struct book {
@@ -13,8 +14,31 @@ struct book {
 	string name;
 };
 
-void Registration() {
+void inquiry() {
+	struct book x[100];
 
+	Sleep(1000);
+	cout << "(익숙한 얼굴의 사서는 컴퓨터를 들고 오더니 물었다." << endl;
+	Sleep(2000);
+	cout << "몇 번째 칸에 있는 책 이었더라.." << endl;
+	Sleep(2000);
+	cout << "(사서는 컴퓨터를 타닥이며 중얼거렸다.)" << endl;
+	Sleep(2000);
+
+	cin >> c;
+
+	if (x[c].name != "") {
+		cout << "'책 있음'" << endl;
+		Sleep(1000);
+	}
+	else {
+		cout << "'책 없음'" << endl;
+	}
+	Sleep(1500);
+}
+
+void Registration() {
+	struct book x[100]; //순서 책
 
 	Sleep(1000);
 	cout << "오.. 알았어.." << endl;
@@ -47,6 +71,12 @@ void Registration() {
 
 	Sleep(2000);
 	cout << "(익숙하게 생긴 사람은 책을 받더니 금새 어디론가 달려갔다.)" << endl;
+
+	x[c].num = c;
+	x[c].name = b;
+
+	Sleep(3000);
+	cout << "(어디선가 책을 꽃고 오고 달려오는 사람이 눈에 띈다.)" << endl;
 }
 
 int main() {
@@ -62,12 +92,27 @@ int main() {
 	Sleep(2000);
 	cout << "ㅇ..여긴 뭐하러 왔어?" << endl;
 	Sleep(3000);
-	cout << ">> 책 등록하러" << endl;
-	cout << ">> 책 조회하러" << endl;
+	cout << ">> 등록" << endl;
+	cout << ">> 조회" << endl;
 	cout << endl;
 	cin >> a;
 
-	if (a == "책 등록하러") {
+	if (a == "등록") {
 		Registration();
+	}
+	if (a == "조회") {
+		Sleep(2000);
+		cout << "아직 ㅋㅋ 그 기능은 ㅋㅋ 지원을 안하는ㅋㅋ데" << endl;
+		Sleep(2000);
+		cout << "아.. 한다고?" << endl;
+		Sleep(1500);
+		cout << "미안해.." << endl;
+	}
+	else {
+		Sleep(2000);
+		cout << "엄.." << endl;
+		Sleep(1500);
+		cout << "도서관을 잘못 찾아온 것 같은데.." << endl;
+		Sleep(2000);
 	}
 }
